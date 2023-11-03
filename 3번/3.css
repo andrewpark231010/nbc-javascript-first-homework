@@ -1,0 +1,15 @@
+.box {
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  float: left;
+  padding: 50px;
+}
+
+.bigBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
